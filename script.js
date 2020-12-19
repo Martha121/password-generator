@@ -19,8 +19,8 @@ function getNumberCharacter(){
 } 
 //returns random Special character
 function getSpecialCharacter(){
-  var specialCharList= "~!@#$%^&*()+=";
-  var specialCharIndex = Math.floor(Math.random()*13);
+  var specialCharList= "!#$%&'()*+,-./:;<=>?@[]{|}~";
+  var specialCharIndex = Math.floor(Math.random()*27);
   return specialCharList.charAt(specialCharIndex);
 } 
 
