@@ -40,10 +40,10 @@ var generateBtn = document.querySelector("#generate");
 function generatePassword(){
   var firstQuestion = confirm ('Do you want to create a new password?');
   if (firstQuestion){
-    var capitalCharacter = confirm ('Do you want to include Uppercase characters?');
-    var lowercaseCharacter = confirm ('Do you want to include Lowercase characters?');
-    var numberCharacter = confirm ('Do you want to include Numbers?');
-    var specialCharacter = confirm ('Do you want to include Special characters?');
+    var capitalCharacter = confirm ('Do you want to include Capital characters');
+    var lowercaseCharacter = confirm ('Do you want to include lower case characters');
+    var numberCharacter = confirm ('Do you want to include numbers');
+    var specialCharacter = confirm ('Do you want to include special characters');
     // Ensure user enter a valid length for the password before continuing
     var lenghtPassword = 0;
     while((lenghtPassword<8 ) || (lenghtPassword>125)){

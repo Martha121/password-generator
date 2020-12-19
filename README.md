@@ -7,4 +7,4 @@ The page can be found at:
 <a href=https://martha121.github.io/password-generator> Password-Generator</a>
 
 ## Screenshot
-![Martha-Portfolio screenshot](./appscreenshot.png) 
+![Martha-Portfolio screenshot](./assets/images/appscreenshot.png) 
