@@ -38,7 +38,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Main fucntio to gather customer options and generate a new password
 function generatePassword(){
-  var firstQuestion = confirm ('Do you want to create a new password? ');
+  var firstQuestion = confirm ('Do you want to create a new password?');
   if (firstQuestion){
     var capitalCharacter = confirm ('Do you want to include Uppercase characters?');
     var lowercaseCharacter = confirm ('Do you want to include Lowercase characters?');
